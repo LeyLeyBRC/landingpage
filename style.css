@@ -1,0 +1,125 @@
+
+body{
+ font-family: 'Balsamiq Sans', cursive;
+
+ }
+
+header {
+  background-color: black;
+}
+
+.banner-wrap {
+ background-image: url(https://images.unsplash.com/photo-1603566234384-f5f5b59168cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+ background-size: cover;
+ background-position: center;
+ padding: 150px 0;
+ text-align: center;
+}
+
+h1 {
+ color: white;
+ font-size: 45px;
+ margin: 0;
+}
+
+.banner-wrap p {
+  color: white;
+  font-size: 30px;
+  margin-top: 16px;
+} 
+
+p {
+  color: black;
+  font-size: 19px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  border: none; 
+  box-shadow: inset 0 0 0 0 #f9e506 ;
+  transition: ease-out 0.3s;
+}
+
+.banner-wrap button:hover{
+ box-shadow: inset 300px 0 0 0 #f9e506;
+ cursor: pointer;
+}
+
+
+.cards-wrap {
+  width: 900px;
+  margin: 60px auto;
+}
+
+.slider{
+  max-width: 1100px;
+  display: flex;
+}
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+}
+.slider .card .img{
+  width: 200px;
+  height: 300px;
+}
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slider .card .content{
+  padding: 10px 20px;
+}
+.card .content .title{
+  font-size: 25px;
+  font-weight: 600;
+}
+.card .content .text{
+  font-size: 20px;
+  font-weight: 600;
+  color: #e74c3c;
+  line-height: 20px;
+}
+.card .content p{
+  margin: 10px 0;
+}
+
+.blog-wrap {
+ background-image: url(https://images.unsplash.com/photo-1491317002516-6356a658b3e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+ background-size: cover;
+ background-position: top;
+ padding: 150px 0;
+ text-align: center;
+}
+
+.blog-wrap button {
+  background-color: #03A3CA;
+  border: 3px solid #42f0f2;
+
+}
+
+.blog-wrap button:hover{
+  background-color: white;
+  color: #03A3CA;
+}
+
+footer {
+  background: black;
+  padding: 30px 50px;
+  position: static;
+  bottom: 0;
+  left: 0px;
+  right: 0px;
+}
+
+footer p {
+  color: white;
+  margin: 0;
+}
