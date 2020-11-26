@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!--Title --->
+        <title>Charlie's Travel Journal</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <!--Slider --->
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+     	<link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+       <!-- Banner Section --->
+    	<div class="banner-wrap">
+    		<h1>Travel, learn and travel more</h1>
+    		<p>Different cultures,languages, food and places to explore!</p>    
+    			<button> Watch Charlie's Youtube Channel</button>
+    	</div>
+       <!--Cards Section --->
+    	<div class="cards-wrap">
+    		<h2> Discover new places </h2>
+        		<div class="slider owl-carousel">
+        			<div class="card">
+                        <div class="img">
+                            <img src="https://images.unsplash.com/photo-1513741125995-599c48b4d213?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Girl and Snow Image" >
+                        </div>
+                        <div class="content">
+                            <div class ="title">
+                                <h3>Patagonia</h3>
+                            </div>
+                            <div class="text">
+                                <p>Home to fantastic mountain peaks and stunning national parks</p>
+                	       </div>
+                        </div>
+                    </div>
+    				<div class="card">
+        		        <div class="img">
+                            <img src="https://images.unsplash.com/photo-1561816544-21ecbffa09a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt="Argentina Beach Image">
+                        </div>
+                        <div class="content">
+                            <div class="title">
+                                <h3>Beaches</h3>
+                            </div>
+                            <div class="text">
+                                <p>A place to enjoy the sun, and do a little of surfing</p>
+        			        </div>
+                        </div>
+                    </div>
+        			<div class="card">
+    		            <div class="img">
+                            <img src="https://images.unsplash.com/photo-1529892485617-25f63cd7b1e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Coffee Image">
+        	            </div>
+                        <div class="content">
+                            <div class="title">
+                                <h3>Enjoy Coffee</h3>
+                            </div>
+                            <div class="text">
+            		            <p>Because there's no other way to live free than a good cup</p>
+        	                </div>
+                        </div>
+                    </div>
+        		</div>
+           <script>
+            $(".slider").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000, //2000ms = 2s;
+            autoplayHoverPause: true,
+            });
+    </script>
+    	</div>
+       <!-- Other Section for another button --->
+    	<div class="blog-wrap">
+    			<button> Check Out My New Blog</button>	   
+    	</div>
+    </body>
+           <!--- Footer Section --->
+    <footer>
+    	<p> Landing Page by Charlie<element>&#9749;</element></p>
+    </footer>
+</html>
